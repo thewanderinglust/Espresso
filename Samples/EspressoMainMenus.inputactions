@@ -1,0 +1,54 @@
+{
+    "name": "EspressoMainMenus",
+    "maps": [
+        {
+            "name": "Title",
+            "id": "9fb21f6a-b9c4-47c1-9d97-0a854ec6fe72",
+            "actions": [
+                {
+                    "name": "Continue",
+                    "type": "Button",
+                    "id": "33a87cac-19f7-4cf6-8ffb-1980ba7f1b9c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Quit",
+                    "type": "Button",
+                    "id": "7a0fed98-9e75-4f90-b9ee-cff038148559",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4a287490-5061-4a8c-bd3c-5801d3b68a25",
+                    "path": "<Keyboard>/anyKey",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Continue",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5c0bdf51-b716-4249-82f1-f208fd06280d",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Quit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

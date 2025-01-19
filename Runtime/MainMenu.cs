@@ -1,16 +1,31 @@
 using UnityEngine;
 
-public class MainMenu : MonoBehaviour
+namespace Espresso.AppManagement
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    
+    public class MainMenu : MonoBehaviour
+    {        
+        [SerializeField] private GameManager m_gameManager;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        public void OnStartGame()
+        {
+             m_gameManager.StartGame();
+        }
+
+        public void OnQuit()
+        {
+            #if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+            #elif UNITY_WEBPLAYER
+            Appliccation.OpenURL(webplayerQuitURL);
+            #else
+            Appliccation.Quit();
+            #endif
+        }
+
+        public void OnOptions()
+        {
+            Debug.LogWarning("Options not implemented");
+        }
     }
 }
