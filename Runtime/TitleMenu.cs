@@ -1,7 +1,6 @@
 using UnityEngine;
-using UnityEngine.Video;
 
-namespace Espresso.AppManagement
+namespace Espresso.UIUtilities
 {
     public class TitleMenu : MonoBehaviour
     {

@@ -1,15 +1,12 @@
 using UnityEngine;
 
-namespace Espresso.AppManagement
+namespace Espresso.UIUtilities
 {
-    
     public class MainMenu : MonoBehaviour
     {        
-        [SerializeField] private GameManager m_gameManager;
-
         public void OnStartGame()
         {
-             m_gameManager.StartGame();
+             Debug.LogWarning("StartGame not implemented");
         }
 
         public void OnQuit()
