@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Espresso.CameraUtilities
+namespace Espresso.WorldUtilities
 {
     public class SpringArm : MonoBehaviour
     {
