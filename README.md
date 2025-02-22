@@ -1,0 +1,1 @@
+**This Unity Package was made by and for an individual Unity developer based on her needs and workflows. She makes no guarantees of stability, efficiency, compatibility, or enjoyability. Use this code at your own risk!**
